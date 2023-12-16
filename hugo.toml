@@ -1,0 +1,55 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Aziz's Portfolio"
+theme = "PaperMod"
+
+[params.homeInfoParams]
+Title = "Hey, I’m Mohamed Aziz 🙋‍♂️"
+Content = """I am a Computer Science student and Technical Writer. 
+Passionate about crafting interactive solutions with code, 
+I share my insights on various topics on my blog. Currently, I am immersed in exploring the vast realms of Software Engineering and the fascinating world of AI/ML technology."""
+[[params.homeInfoParams.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/joelolawanle"
+
+[[params.homeInfoParams.socialIcons]]
+name = "github"
+url = "https://github.com/olawanlejoel"
+
+[[params.homeInfoParams.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/joelolawanle/"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "projects"
+url = "/posts/"
+weight = 20
+
+ [[params.socialIcons]]
+    name = "github"
+    title = "View Source on Github"
+    url = "https://github.com/azizxlaouiti"
+[[params.socialIcons]]
+    name = "linkedin"
+    title = "Aziz's linkedin"
+    url = "https://www.linkedin.com/in/mohamed-aziz-laouiti"
+
+  [[params.socialIcons]]
+    name = "medium"
+    title = "check out my blog"
+    url = "https://mohamed-aziz-laouiti.medium.com"
+
+  
+
+
+  [params.editPost]
+    URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
